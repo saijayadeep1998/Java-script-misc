@@ -1,0 +1,31 @@
+<html>  
+<head>  
+<title>  
+HTML DOM offsetHeight Property example  
+</title>  
+<style>  
+#JTP {  
+height: 120px;  
+width: 250px;  
+margin: 20px;  
+padding: 15px;  
+background-color: yellow;  
+}  
+</style>  
+</head>  
+<script>  
+function getInfo() {  
+var eleValue = document.getElementById("JTP");  
+var txt = "Height of the elements paragraph along with padding and border in pixels is: " + eleValue.offsetHeight + "px";  
+document.getElementById("sudo").innerHTML = txt;  
+}  
+</script>  
+<body>  
+<h2> HTML DOM offsetHeight Property example </h2>  
+<div id= "JTP">  
+<b> A basic information about this div tab: </b>  
+<p id= "sudo"> </p>  
+</div>  
+<button type="JTP" onclick="getInfo()"> Submit </button>  
+</body>  
+</html>  
